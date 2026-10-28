@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact — Northstar Logistics</title>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="announcement"><i class="pulse"></i> GLOBAL FREIGHT, WITHOUT THE GUESSWORK <span>24/7 CONTROL TOWER
+            ↗</span></div>
+    <header class="header-bar">
+        <div class="header">
+            <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Northstar Logistics"></a>
+            <button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <div class="nav-item has-dropdown">
+                    <a class="nav-link" href="services.html">Services <span class="nav-caret">⌄</span></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-list">
+                            <a class="dropdown-item" href="service-air.html"><span class="dropdown-icon"><img src="assets/plane.svg" alt="" aria-hidden="true"></span><div class="dropdown-info"><strong>Air freight</strong><small>Express, priority &amp; charter</small></div></a>
+                            <a class="dropdown-item" href="service-ocean.html"><span class="dropdown-icon"><img src="assets/ship.svg" alt="" aria-hidden="true"></span><div class="dropdown-info"><strong>Ocean freight</strong><small>FCL, LCL &amp; global routes</small></div></a>
+                            <a class="dropdown-item" href="service-road.html"><span class="dropdown-icon"><img src="assets/truck.svg" alt="" aria-hidden="true"></span><div class="dropdown-info"><strong>Road &amp; rail</strong><small>Intermodal ground delivery</small></div></a>
+                            <a class="dropdown-item" href="service-warehouse.html"><span class="dropdown-icon"><img src="assets/warehouse.svg" alt="" aria-hidden="true"></span><div class="dropdown-info"><strong>Warehousing</strong><small>Storage, pick &amp; pack</small></div></a>
+                        </div>
+                        <a class="dropdown-foot" href="services.html"><span>All services</span><b>↗</b></a>
+                    </div>
+                </div>
+                <a href="about.html">About us</a>
+                <a href="tracking.html">Track shipment</a>
+                <a href="insights.html">Reviews</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+            <a class="btn orange" href="contact.html">Get a Quote</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="shell">
+                <div class="crumb"><a href="index.html">Home</a> / Contact</div>
+                <div class="eyebrow">LET'S MAKE YOUR NEXT MOVE</div>
+                <h1>Tell us what<br><em>needs moving.</em></h1>
+                <p>Share a few details and we'll help you explore a practical way forward. No jargon, no pressure — just
+                    a useful conversation.</p>
+            </div>
+        </section>
+        <section class="inner shell">
+            <div class="contact-grid">
+                <aside class="contact-panel reveal">
+                    <div class="eyebrow" style="color:#c6ced9">HERE WHEN YOU NEED US</div>
+                    <h2>Good logistics starts with a conversation.</h2>
+                    <p>Tell us about your cargo, timeline, or challenge. We'll help you find the right next step.</p>
+                    <div class="contact-item"><small>EMAIL</small><strong>hello@northstar.example</strong></div>
+                    <div class="contact-item"><small>SUPPORT</small><strong>24/7 control tower (demo)</strong></div>
+                    <div class="contact-item"><small>GLOBAL NETWORK</small><strong>48 countries (illustrative)</strong>
+                    </div>
+                    <p style="font-size:10px;color:#9da7b7">Sample brand and contact information. Replace with verified
+                        company details before launch.</p>
+                </aside>
+                <div class="reveal d1">
+                    <form id="contactForm" class="form">
+                        <div class="field"><label for="name">Your name *</label><input id="name" name="name" required
+                                autocomplete="name" placeholder="Full name"></div>
+                        <div class="field"><label for="company">Company</label><input id="company" name="company"
+                                autocomplete="organization" placeholder="Company name"></div>
+                        <div class="field"><label for="email">Work email *</label><input id="email" name="email"
+                                type="email" required autocomplete="email" placeholder="you@company.com"></div>
+                        <div class="field"><label for="service">What do you need? *</label><select id="service"
+                                name="service" required>
+                                <option value="">Choose a service</option>
+                                <option>Air freight</option>
+                                <option>Ocean freight</option>
+                                <option>Road & rail</option>
+                                <option>Warehousing</option>
+                                <option>End-to-end logistics</option>
+                                <option>Not sure yet</option>
+                            </select></div>
+                        <div class="field full"><label for="volume">Shipment details</label><input id="volume"
+                                name="volume" placeholder="Origin, destination, volume, timing (optional)"></div>
+                        <div class="field full"><label for="message">How can we help? *</label><textarea id="message"
+                                name="message" required
+                                placeholder="Tell us about your shipment or challenge…"></textarea></div>
+                        <div class="field full"><button class="btn orange">Send your enquiry <span>↗</span></button>
+                            <p id="formNotice" class="notice" aria-live="polite"></p><small
+                                style="font-size:10px;color:var(--muted)">This demo opens an email draft; it does not
+                                send form data to a server.</small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="inner" style="background:var(--cream)">
+            <div class="shell">
+                <div class="heading">
+                    <div>
+                        <div class="eyebrow">COMMON QUESTIONS</div>
+                        <h2>A few things <em>you might wonder.</em></h2>
+                    </div>
+                </div>
+                <div class="faq">
+                    <details>
+                        <summary>What information do you need for a quote?</summary>
+                        <p>Origin, destination, cargo dimensions or weight, preferred timeline, and any special handling
+                            requirements are a useful starting point.</p>
+                    </details>
+                    <details>
+                        <summary>Can you help with multiple shipping modes?</summary>
+                        <p>The concept includes air, ocean, road and rail, and warehousing. Actual service availability
+                            depends on your real provider and route.</p>
+                    </details>
+                    <details>
+                        <summary>Can I track a shipment here?</summary>
+                        <p>The tracking page is a UI demo only. Live tracking needs carrier or logistics platform API
+                            integration.</p>
+                    </details>
+                    <details>
+                        <summary>How quickly will someone respond?</summary>
+                        <p>This sample site has no connected support team. Replace the demo contact details and connect
+                            a real inbox or CRM before launch.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main shell">
+            <div class="footer-brand"><a href="index.html"><img src="assets/logo.svg" alt="Northstar Logistics"></a>
+                <p>Thoughtful logistics for businesses going places.</p>
+            </div>
+            <div>
+                <h4>Explore</h4><a href="services.html">Services</a><a href="about.html">Our story</a><a
+                    href="insights.html">Insights</a><a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <h4>Solutions</h4><a href="services.html#air">Air freight</a><a href="services.html#ocean">Ocean
+                    freight</a><a href="services.html#road">Road & rail</a>
+            </div>
+            <div>
+                <h4>Let's move</h4>
+                <p>Have a shipment in mind?</p><a href="contact.html">hello@northstar.example ↗</a>
+            </div>
+        </div>
+        <div class="footer-bottom shell"><span>© 2026 Northstar Logistics. Demo brand concept.</span><span>Built for
+                better movement. <b>↗</b></span></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
